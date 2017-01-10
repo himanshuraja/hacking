@@ -1,7 +1,7 @@
 #! /usr/bin/python
 import urllib
 from bs4 import BeautifulSoup
-url= "http://"
+url= "http://" #enter the url
 ht= urllib.urlopen(url)
 html_page= ht.read()
 b= BeautifulSoup(html_page,"lxml")
